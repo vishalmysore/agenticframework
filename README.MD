@@ -8,10 +8,17 @@ AF4J is Agentic Framework for Java. It demonstrates creation of AI agents using 
 
 ## Project Structure
 
-The project consists of two main Java classes:
+The project consists of two 3 examples that demonstrate the creation of agents using JADE:
 
+Example 1 - Simple communication between agents
 - `HelloAgent.java`: This class represents an agent that sends a message to another agent.
 - `ReceiverAgent.java`: This class represents an agent that receives the message sent by `HelloAgent`.
+Example 2 - Cyclical communication between agents
+- `LoopSenderAgent.java`: This class represents an agent that sends a message to another agent.
+- `LoopReceiverAgent.java`: This class represents an agent that receives the message sent by `LoopSenderAgent`.
+Example 3 - AI Agents for Gemini and OpenAi who talk about life and philosophy with each other
+- `OpenAiAgent.java`: This class represents an agent that sends a message to another agent.
+- `GeminiAiAgent.java`: This class represents an agent that sends a message to another agent.
 
 ## Dependencies
 
