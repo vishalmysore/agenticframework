@@ -1,0 +1,1 @@
+java -cp jade-4.5.0.jar;target/classes jade.Boot -gui HelloAgent:io.github.vishalmysore.simple.HelloAgent;ReceiverAgent:io.github.vishalmysore.simple.ReceiverAgent
