@@ -1,4 +1,4 @@
-package io.github.vishalmysore.ai;
+package io.github.vishalmysore.ai.complex;
 
 import com.t4a.processor.AIProcessingException;
 import com.t4a.processor.OpenAiActionProcessor;
@@ -8,14 +8,14 @@ import jade.lang.acl.ACLMessage;
 import lombok.extern.java.Log;
 
 @Log
-public class OpenAiAgent extends Agent {
+public class OpenAiAgent2 extends Agent {
     private OpenAiActionProcessor processor;
     private String reply = null;
-    public OpenAiAgent() {
+    public OpenAiAgent2() {
         processor = new OpenAiActionProcessor();
     }
     protected void setup() {
-        log.info("OpenAiAgent " + getLocalName() + " is ready.");
+        log.info("OpenAiAgent2 " + getLocalName() + " is ready.");
 
         addBehaviour(new CyclicBehaviour(this) {
             public void action() {
@@ -25,7 +25,6 @@ public class OpenAiAgent extends Agent {
 
                     // Create a reply message
                     ACLMessage reply = msg.createReply();
-                   // reply.addReceiver(new jade.core.AID("GeminiAiAgent", jade.core.AID.ISLOCALNAME));
                     reply.setPerformative(ACLMessage.INFORM);
                     try {
                         String replyStr= processor.query(msg.getContent());
