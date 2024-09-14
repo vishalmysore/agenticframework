@@ -11,18 +11,18 @@ AF4J is Agentic Framework for Java. It demonstrates creation of AI agents using 
 The project consists of examples that demonstrate the creation of agents using JADE:
 
 - Example 1 - Simple communication between agents
-    - `HelloAgent.java`: This class represents an agent that sends a message to another agent.
-    - `ReceiverAgent.java`: This class represents an agent that receives the message sent by `HelloAgent`.
+    - [`HelloAgent.java`](src/main/java/io/github/vishalmysore/simple/HelloAgent.java): This class represents an agent that sends a message to another agent.
+    - [`ReceiverAgent.java`](src/main/java/io/github/vishalmysore/simple/ReceiverAgent.java): This class represents an agent that receives the message sent by `HelloAgent`.
 - Example 2 - Cyclical communication between agents
-    - `LoopSenderAgent.java`: This class represents an agent that sends a message to another agent.
-    - `LoopReceiverAgent.java`: This class represents an agent that receives the message sent by `LoopSenderAgent`.
+    - [`LoopSenderAgent.java`](src/main/java/io/github/vishalmysore/loop/LoopSenderAgent.java): This class represents an agent that sends a message to another agent.
+    - [`LoopReceiverAgent.java`](src/main/java/io/github/vishalmysore/loop/LoopReceiverAgent.java): This class represents an agent that receives the message sent by `LoopSenderAgent`.
 - Example 3 - AI Agents for Gemini and OpenAi who talk about life and philosophy with each other
-    - `OpenAiAgent.java`: This class represents an agent that sends a message to another agent.
-    - `GeminiAiAgent.java`: This class represents an agent that sends a message to another agent.
+    - [`OpenAiAgent.java](src/main/java/io/github/vishalmysore/ai/OpenAiAgent.java): This class represents an agent that sends a message to another agent.
+    - [`GeminiAiAgent.java`](src/main/java/io/github/vishalmysore/ai/GeminiAiAgent.java): This class represents an agent that sends a message to another agent.
 - Example 4 - AI Agent Gemini who talks to 2 OpenAi agents    
-    - `GeminiAiAgentMulti.java`: This class represents an agent that sends a random questions to 2 other agents and gets the response. It then judes the best response and declares the winner. 
-    - `OpenAiAgent2.java`: This is the receiver agent 1.
-    - `OpenAiAgent.java`: receiver agent 2.
+    - [`GeminiAiAgentMulti.java`](src/main/java/io/github/vishalmysore/ai/complex/GeminiAiAgentMulti.java): This class represents an agent that sends a random questions to 2 other agents and gets the response. It then judes the best response and declares the winner. 
+    - [`OpenAiAgent2.java`](src/main/java/io/github/vishalmysore/ai/complex/OpenAiAgent2.java): This is the receiver agent 1.
+    - [`OpenAiAgent.java`](src/main/java/io/github/vishalmysore/ai/OpenAiAgent.java): receiver agent 2.
   
 ## More Examples
 
