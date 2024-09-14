@@ -26,8 +26,12 @@ The project consists of examples that demonstrate the creation of agents using J
   
 ## More Examples
 
+
+### [ReflexAgent](src/main/java/io/github/vishalmysore/agents/ReflexAgent.java)
+`ReflexAgent` is a type of AI agent that chooses actions based solely on the current percept, without considering the history of past percepts.
+
 ### [SimpleChatbot](src/main/java/io/github/vishalmysore/agents/SimpleChatbot.java)
-`SimpleChatbot` is a basic chatbot agent that responds to messages based on their content. It can respond to greetings and inquiries about its state.
+`SimpleChatbot` is a basic chatbot agent based on Reflex agent that responds to messages based on their content. It can respond to greetings and inquiries about its state.
 
 ### [ModelBasedReflexAgent](src/main/java/io/github/vishalmysore/agents/ModelBasedReflexAgent.java)
 `ModelBasedReflexAgent` is an agent that maintains an internal model of the world and chooses actions based on the current percept and the history of past percepts. The agent's internal model of the world is represented by a state file.
@@ -47,9 +51,6 @@ The project consists of examples that demonstrate the creation of agents using J
 
 ### [MetaAgent](src/main/java/io/github/vishalmysore/agents/MetaAgent.java)
 `MetaAgent` is an agent that selects an agent based on the current percept and forwards the percept to the selected agent.
-
-### [ReflexAgent](src/main/java/io/github/vishalmysore/agents/ReflexAgent.java)
-`ReflexAgent` is a type of AI agent that chooses actions based solely on the current percept, without considering the history of past percepts.
 
 
 ## Dependencies
