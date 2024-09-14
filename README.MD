@@ -20,7 +20,7 @@ The project consists of examples that demonstrate the creation of agents using J
     - [`OpenAiAgent.java](src/main/java/io/github/vishalmysore/ai/OpenAiAgent.java): This class represents an agent that sends a message to another agent.
     - [`GeminiAiAgent.java`](src/main/java/io/github/vishalmysore/ai/GeminiAiAgent.java): This class represents an agent that sends a message to another agent.
 - Example 4 - AI Agent Gemini who talks to 2 OpenAi agents    
-    - [`GeminiAiAgentMulti.java`](src/main/java/io/github/vishalmysore/ai/complex/GeminiAiAgentMulti.java): This class represents an agent that sends a random questions to 2 other agents and gets the response. It then judes the best response and declares the winner. 
+    - [`GeminiAiAgentMulti.java`](src/main/java/io/github/vishalmysore/ai/complex/GeminiAIAgentMulti.java): This class represents an agent that sends a random questions to 2 other agents and gets the response. It then judes the best response and declares the winner. 
     - [`OpenAiAgent2.java`](src/main/java/io/github/vishalmysore/ai/complex/OpenAiAgent2.java): This is the receiver agent 1.
     - [`OpenAiAgent.java`](src/main/java/io/github/vishalmysore/ai/OpenAiAgent.java): receiver agent 2.
   
